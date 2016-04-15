@@ -143,11 +143,11 @@ local function run(msg,matches)
     		return "شما نمیتوانید ادمین را بلاک کنید"
     	end
     	block_user("user#id"..matches[2],ok_cb,false)
-    	return "یوزر مورد نظر از ربات بلاک شد"
+    	return "این اقاهه/خانومه که زدی بلاک شد"
     end
     if matches[1] == "unblock" then
     	unblock_user("user#id"..matches[2],ok_cb,false)
-    	return "یوزر انبلاک شد"
+    	return "این اقاهه/خانومه که زدی از بلاک درومد"
     end
     if matches[1] == "import" then--join by group link
     	local hash = parsed_url(matches[2])
