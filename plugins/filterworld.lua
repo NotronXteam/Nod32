@@ -125,7 +125,7 @@ return {
     "filterlist : لیست فیلتر شده ها",
   },
   moderator = {
-    "filter > (word) : اخطار کردن لغت",
+    "filter * (word) : اخطار کردن لغت",
     "filter + (word) : ممنوع کردن لغت",
     "filter - (word) : حذف از فیلتر",
   },
